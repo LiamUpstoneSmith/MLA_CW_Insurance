@@ -1,0 +1,10 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="charges <= 0.169\ngini = 0.322\nsamples = 1054\nvalue = [841.0, 213.0]\nclass = smoker", fillcolor="#eca16b"] ;
+1 [label="charges <= 0.039\ngini = 0.018\nsamples = 774\nvalue = [767.0, 7.0]\nclass = smoker", fillcolor="#e5823b"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="gini = 0.003\nsamples = 737\nvalue = [736.0, 1.0]\nclass = smoker", fillcolor="#e58139"] ;
+1 -> 2 ;
+3 [label="gini = 0.272\nsamples = 37\nvalue = [31, 6]\nclass = smoker", fillcolor="#ea995f"] ;
+1 -> 3 ;
